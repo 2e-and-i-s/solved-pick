@@ -9,6 +9,7 @@ import java.util.List;
 
 @Entity
 @Getter
+@Setter
 @Builder
 @Table(name = "avatars")
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
